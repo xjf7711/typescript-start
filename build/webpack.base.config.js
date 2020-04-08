@@ -1,7 +1,5 @@
 /*
  * @功能描述: 
- * @作者: 高云蛟
- * @Date: 2019-08-15 22:24:12
  */
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
@@ -35,5 +33,8 @@ module.exports = {
         splitChunks: {
             chunks: 'all'
         }
+    },
+    devServer: {
+        port: 8001,
     }
 }

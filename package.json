@@ -1,27 +1,46 @@
 {
-  "name": "ts-init",
+  "name": "typescritp-start",
   "version": "1.0.0",
   "description": "",
   "main": "./src/index.ts",
   "scripts": {
-    "start": "webpack-dev-server --mode=development --config ./build/webpack.config.js",
+    "serve": "webpack-dev-server --mode=development --config ./build/webpack.config.js",
     "build": "webpack --mode=production --config ./build/webpack.config.js",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "typescript",
+    "webpack"
+  ],
+  "author": "Xu",
   "license": "ISC",
   "devDependencies": {
+    "@types/file-saver": "^2.0.3",
     "@types/jest": "^24.9.1",
-    "clean-webpack-plugin": "^3.0.0",
-    "html-webpack-plugin": "^3.2.0",
-    "jest": "^24.9.0",
-    "ts-jest": "^24.3.0",
-    "ts-loader": "^6.2.2",
-    "typescript": "^3.8.3",
-    "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3",
-    "webpack-merge": "^4.2.2"
+    "@typescript-eslint/eslint-plugin": "^4.29.2",
+    "@typescript-eslint/parser": "^4.29.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^6.2.0",
+    "eslint": "^7.32.0",
+    "html-webpack-plugin": "^5.3.2",
+    "jest": "^27.0.6",
+    "mini-css-extract-plugin": "^2.2.0",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1",
+    "precss": "^4.0.0",
+    "style-loader": "^3.2.1",
+    "ts-jest": "^27.0.5",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "file-saver": "^2.0.5",
+    "jszip": "^3.7.1",
+    "rxjs": "^7.3.0"
   }
 }

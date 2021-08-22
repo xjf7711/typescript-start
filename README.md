@@ -1,6 +1,4 @@
-<!--
- * @功能描述: 
- -->
+
 > 1、全局和本地安装TypeScript
 
 > 2、初始化、安装webpack、webpack-cli、webpack-dev-server、webpack-merge
@@ -13,5 +11,6 @@
 
 > 6、单元测试npx ts-jest config:init
 > 
+>
+> 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
 > 
-> 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

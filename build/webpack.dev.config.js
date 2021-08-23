@@ -1,6 +1,6 @@
 /*
- * @功能描述: 
+ * @功能描述:
  */
 module.exports = {
-    devtool: 'cheap-module-eval-source-map' // 忽略列信息的ts源码
+    devtool: 'eval-cheap-module-source-map' // 忽略列信息的ts源码
 }

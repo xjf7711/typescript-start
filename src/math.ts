@@ -1,15 +1,12 @@
-/*
- * @功能描述: 
- */
 function add(a: number, b: number) {
-    return a + b;
+  return a + b;
 }
 
 function sub(a: number, b: number) {
-    return a - b;
+  return a - b;
 }
 
 export {
-    add,
-    sub
+  add,
+  sub
 }

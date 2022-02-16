@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: {
-    'app': './src/index.ts'
+    'app': './src/main.ts'
   },
   output: {
     filename: '[name].[chunkhash:8].js'

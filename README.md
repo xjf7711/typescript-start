@@ -10,5 +10,8 @@
 > 5、安装loader， ts-loader
 
 > 6、单元测试npx ts-jest config:init
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> e8f51faedb4d8185b404e2705d026c91e9ce7496

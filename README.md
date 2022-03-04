@@ -10,7 +10,9 @@
 > 5、安装loader， ts-loader
 
 > 6、单元测试npx ts-jest config:init
+
 > 
 >
 > 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
 > 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
+

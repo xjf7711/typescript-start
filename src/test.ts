@@ -1,8 +1,8 @@
 import { fromEvent } from 'rxjs';
 import { add, sub } from './math';
 import { greeting } from './greeter';
-import './style/color.less';
-import './style/index.scss';
+import './styles/color.less';
+import './styles/index.scss';
 // 在页面中调用时
 fromEvent(document, 'DOMContentLoaded').subscribe(e => {
   console.log('document DOMContentLoaded e is ', e);

@@ -15,11 +15,11 @@ module.exports = {
     path: resolve('lib'),
     clean: true,
     library: {
+      name: 'TsLib',
       type: 'umd',
       export: 'default',
-      name: 'TsLib',
     },
-    globalObject: 'this'
+    // globalObject: 'this'
   },
   resolve: {
     // 配置解析模块路径别名: 优点 简写路径 缺点 写路径时没有提示

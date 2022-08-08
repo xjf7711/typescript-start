@@ -1,5 +1,4 @@
 docs
-coverage-ts
 node_modules
 package-lock.json
 yarn.lock

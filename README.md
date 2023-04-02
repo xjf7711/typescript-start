@@ -7,6 +7,8 @@
 
 > 4、创建配置文件tsconfig.json, tsc --init
 
-> 5、安装loader， ts-loader
+> 5、安装loader， ts-loader css-loader url-loader file-loader less-loader
 
 > 6、单元测试npx ts-jest config:init
+
+>

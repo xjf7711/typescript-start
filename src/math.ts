@@ -9,4 +9,4 @@ function sub(a: number, b: number) {
 export {
   add,
   sub
-}
+};

@@ -166,7 +166,7 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/ // 不要处理node_modules
-      }
+      },
     ]
   },
   plugins: [

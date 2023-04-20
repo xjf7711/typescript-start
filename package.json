@@ -7,7 +7,7 @@
     "serve": "webpack-dev-server --mode=development --config ./build/webpack.config.js",
     "build": "webpack --mode=production --config ./build/webpack.config.js",
     "lib": "webpack --mode=none --config ./build/webpack.lib.config.js",
-    "shift": "jscodeshift --parser=recast -t transform.js foo.js",
+    "shift": "jscodeshift -t transform.js foo.js",
     "js": "tsc",
     "test": "jest",
     "lint": "eslint src",
@@ -73,7 +73,6 @@
     "jsbarcode": "^3.11.4",
     "jscodeshift": "^0.14.0",
     "jszip": "^3.7.1",
-    "recast": "^0.22.0",
     "rxjs": "^7.3.0"
   },
   "typeCoverage": {

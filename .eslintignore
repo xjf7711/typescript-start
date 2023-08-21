@@ -1,5 +1,13 @@
+# Third party
+**/node_modules
+
 # 忽略build目录下类型为js的文件的语法检查
-build/*.js
+# Build products
+build/
+coverage/
+fixtures/
+scripts/bench/benchmarks/**/*.js
+
 # 忽略src/assets目录下文件的语法检查
 src/assets
 # 忽略public目录下文件的语法检查

@@ -71,7 +71,7 @@ module.exports = {
           }
         ]
       },
-      // less todo scss
+      // less scss
       {
         test: /\.less$/,
         use: [

@@ -94,9 +94,6 @@ module.exports = {
             options: {
               importLoaders: 1
             }
-          },
-          {
-            loader: 'postcss-loader'
           }
         ]
       },
@@ -111,7 +108,6 @@ module.exports = {
             }
           },
           'css-loader',
-          'postcss-loader',   // 处理css兼容性
           'less-loader'
         ]
       },
@@ -129,7 +125,6 @@ module.exports = {
               importLoaders: 2
             }
           },
-          'postcss-loader',   // 处理css兼容性
           {
             loader: 'sass-loader' // 将 Sass 编译成 CSS
           }

@@ -10,6 +10,7 @@ fromEvent(document, 'DOMContentLoaded').subscribe(e => {
   div.innerHTML = 'hello postcss';
   div.classList.add('hello_postcss');
   div.classList.add('blue');
+  console.log('div is ', div);
   console.log('div.classList is ', div.classList);
   console.log('div.className is ', div.className);
   // div.className = '';
@@ -23,8 +24,8 @@ fromEvent(document, 'DOMContentLoaded').subscribe(e => {
 
   document.querySelectorAll('.app')[0].innerHTML = 'Hello typeScript start';
 
-  const app = document.querySelector('.app');
-  app && fromEvent(app, 'click').subscribe(async (e) => {
+  const appEl = document.querySelector('.app');
+  appEl && fromEvent(appEl, 'click').subscribe(async (e) => {
     console.log('fromEvent app click . ');
     greeting();
   });

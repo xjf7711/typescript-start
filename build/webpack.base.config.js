@@ -24,7 +24,7 @@ module.exports = {
     app: './src/main.ts',
     // 正式使用时，这个要注掉
     // editor: './src/index.ts',
-    test: './src/test.ts',
+    // test: './src/m.ts',
   },
   // 出口
   output: {

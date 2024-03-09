@@ -24,7 +24,7 @@ module.exports = {
     app: './src/main.ts',
     // 正式使用时，这个要注掉
     // editor: './src/index.ts',
-    test: './src/test.ts',
+    // test: './src/test.ts',
   },
   // 出口
   output: {
@@ -51,7 +51,8 @@ module.exports = {
     // 配置解析模块路径别名: 优点 简写路径 缺点 写路径时没有提示
     // alias: {
     //   // $css: path.resolve(__dirname, 'src/css'),
-    //   src: path.resolve(__dirname, '../src')
+    //   // src: path.resolve(__dirname, '../src')
+    //   assets: path.resolve(__dirname, '../src/assets')
     // },
     // 配置省略文件路径的后缀名，引用文件时，后缀名就可以省略了
     extensions: ['.js', '.ts', '.tsx'] // '.json', '.css'],
@@ -94,9 +95,6 @@ module.exports = {
             options: {
               importLoaders: 1
             }
-          },
-          {
-            loader: 'postcss-loader'
           }
         ]
       },
@@ -111,7 +109,6 @@ module.exports = {
             }
           },
           'css-loader',
-          'postcss-loader',   // 处理css兼容性
           'less-loader'
         ]
       },
@@ -129,7 +126,6 @@ module.exports = {
               importLoaders: 2
             }
           },
-          'postcss-loader',   // 处理css兼容性
           {
             loader: 'sass-loader' // 将 Sass 编译成 CSS
           }
@@ -172,7 +168,7 @@ module.exports = {
   plugins: [
     // 多个html页面
     new HtmlWebpackPlugin({
-      template: './public/index.html', // 把哪个html文件打包到dist目录中
+      template: './src/index.html', // 把哪个html文件打包到dist目录中
       title: 'typescript start',
       filename: 'index.html', // 输出什么名字 默认 index.html
       // chunks: ['advertisement', 'commCss', 'dom', 'utils'], // todo ??? 当前页面所需要哪些模块 模块引入顺序和入口设置时的先后有关

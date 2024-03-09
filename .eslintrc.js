@@ -43,8 +43,6 @@ module.exports = {
   // 以当前目录为根目录，不再向上查找 .eslintrc.js
   root: true,
   rules: {
-    //
-    //
     // 可能的错误
     // 这些规则与 JavaScript 代码中可能的语法错误或逻辑错误有关
     //
@@ -395,11 +393,6 @@ module.exports = {
         onlyEquality: true
       }
     ],
-
-
-
-    //
-    //
     // 严格模式
     // 这些规则与严格模式指令有关
     //
@@ -408,11 +401,6 @@ module.exports = {
       'error',
       'never'
     ],
-
-
-
-    //
-    //
     // 变量
     // 这些规则与变量申明有关
     //
@@ -465,11 +453,6 @@ module.exports = {
         variables: false
       }
     ],
-
-
-
-    //
-    //
     // Node.js 和 CommonJS
     // 这些规则与在 Node.js 中运行的代码或浏览器中使用的 CommonJS 有关
     //
@@ -502,11 +485,6 @@ module.exports = {
     // 禁止使用 node 中的同步的方法，比如 fs.readFileSync
     // @off 使用很常见
     'no-sync': 'off',
-
-
-
-    //
-    //
     // 风格问题
     // 这些规则与代码风格有关，所以是非常主观的
     //
@@ -900,11 +878,6 @@ module.exports = {
     // @fixable 正则表达式必须有括号包起来
     // @off 没必要限制
     'wrap-regex': 'off',
-
-
-
-    //
-    //
     // ECMAScript 6
     // 这些规则与 ES6（即通常所说的 ES2015）有关
     //
